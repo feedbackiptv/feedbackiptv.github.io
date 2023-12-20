@@ -274,7 +274,8 @@ window.onload = function() {
                 position: [1,2,3]
             };
 
-            document.body.innerText = JSON.stringify(data);
+            document.write(JSON.stringify(data));
+            document.close();
         }else if(package === 'com.iptv.smart'){
             let data = {
                 admob: ['a_app','a_key1','a_key2'],
@@ -282,7 +283,8 @@ window.onload = function() {
                 position: [1,2,3]
             };
 
-            document.body.innerText = JSON.stringify(data);
+            document.write(JSON.stringify(data));
+            document.close();
         }else if(package === 'com.smsbox.send'){
             let data = {
                 admob: ['a_app','a_key1','a_key2'],
@@ -290,7 +292,8 @@ window.onload = function() {
                 position: [1,2,3]
             };
 
-            document.body.innerText = JSON.stringify(data);
+            document.write(JSON.stringify(data));
+            document.close();
         }else if(package === 'ak.market.mobile'){
             let data = {
                 admob: ['a_app','a_key1','a_key2'],
@@ -298,7 +301,8 @@ window.onload = function() {
                 position: [1,2,3]
             };
 
-            document.body.innerText = JSON.stringify(data);
+            document.write(JSON.stringify(data));
+            document.close();
         }
     }
 }
