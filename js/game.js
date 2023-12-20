@@ -262,47 +262,4 @@ window.onload = function() {
         context.lineTo(endX, endY);
         context.stroke();
     }
-
-    const params = new URLSearchParams(document.location.search);
-    const package = params.get("package");
-
-    if (package.length > 0){
-        if (package === 'com.television.iptv'){
-            let data = {
-                admob: ['a_app','a_key1','a_key2'],
-                yandex: ['y_app','y_key1','y_key2'],
-                position: [1,2,3]
-            };
-
-            document.write(JSON.stringify(data));
-            document.close();
-        }else if(package === 'com.iptv.smart'){
-            let data = {
-                admob: ['a_app','a_key1','a_key2'],
-                yandex: ['y_app','y_key1','y_key2'],
-                position: [1,2,3]
-            };
-
-            document.write(JSON.stringify(data));
-            document.close();
-        }else if(package === 'com.smsbox.send'){
-            let data = {
-                admob: ['a_app','a_key1','a_key2'],
-                yandex: ['y_app','y_key1','y_key2'],
-                position: [1,2,3]
-            };
-
-            document.write(JSON.stringify(data));
-            document.close();
-        }else if(package === 'ak.market.mobile'){
-            let data = {
-                admob: ['a_app','a_key1','a_key2'],
-                yandex: ['y_app','y_key1','y_key2'],
-                position: [1,2,3]
-            };
-
-            document.write(JSON.stringify(data));
-            document.close();
-        }
-    }
 }
