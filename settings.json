@@ -6,12 +6,12 @@
 "yandex":["y_app","y_key1","y_key2"],
 "data":[
 {
-"activeB":[true,1,1,1,3],
-"activeF":[true,1,1,1,3]
+"activeB":[true,2,2,2,1],
+"activeF":[true,2,2,2,1]
 },
 {
-"activeB":[true,1,1,1,3],
-"activeF":[true,1,1,1,3]
+"activeB":[true,2,2,2,1],
+"activeF":[true,2,2,2,1]
 }
 ]
 }
